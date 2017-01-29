@@ -21,7 +21,7 @@ import com.doj.webapp.model.User;
 public class LoginController {
 	
 	//@RequestMapping(value="/login", method=RequestMethod.GET)
-	@GetMapping(value="/login")
+	@GetMapping(value="/login")//as of spring 4.3
 	public String login() {
 		return "login" ;
 	}
